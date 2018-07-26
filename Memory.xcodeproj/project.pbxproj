@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1DE1CAAE2109670E00DA79EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAAD2109670E00DA79EB /* AppDelegate.m */; };
-		1DE1CAB12109670E00DA79EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAB02109670E00DA79EB /* ViewController.m */; };
 		1DE1CAB42109670E00DA79EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1CAB22109670E00DA79EB /* Main.storyboard */; };
 		1DE1CAB62109671000DA79EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1CAB52109671000DA79EB /* Assets.xcassets */; };
 		1DE1CAB92109671000DA79EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE1CAB72109671000DA79EB /* LaunchScreen.storyboard */; };
 		1DE1CABC2109671000DA79EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CABB2109671000DA79EB /* main.m */; };
 		1DE1CAC62109671000DA79EB /* MemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAC52109671000DA79EB /* MemoryTests.m */; };
 		1DE1CAD12109671000DA79EB /* MemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAD02109671000DA79EB /* MemoryUITests.m */; };
+		1DE1CAE42109680700DA79EB /* UINavigationController+Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAE32109680700DA79EB /* UINavigationController+Memory.m */; };
+		1DE1CAE721096A0900DA79EB /* UIViewController+Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAE621096A0900DA79EB /* UIViewController+Memory.m */; };
+		1DE1CAF2210974FB00DA79EB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAED210974FB00DA79EB /* TestViewController.m */; };
+		1DE1CAF3210974FB00DA79EB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAEF210974FB00DA79EB /* ThirdViewController.m */; };
+		1DE1CAF4210974FB00DA79EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE1CAF1210974FB00DA79EB /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		1DE1CAA92109670E00DA79EB /* Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE1CAAC2109670E00DA79EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1DE1CAAD2109670E00DA79EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1DE1CAAF2109670E00DA79EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1DE1CAB02109670E00DA79EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1DE1CAB32109670E00DA79EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DE1CAB52109671000DA79EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE1CAB82109671000DA79EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		1DE1CACC2109671000DA79EB /* MemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE1CAD02109671000DA79EB /* MemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUITests.m; sourceTree = "<group>"; };
 		1DE1CAD22109671000DA79EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE1CAE22109680700DA79EB /* UINavigationController+Memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Memory.h"; sourceTree = "<group>"; };
+		1DE1CAE32109680700DA79EB /* UINavigationController+Memory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Memory.m"; sourceTree = "<group>"; };
+		1DE1CAE521096A0900DA79EB /* UIViewController+Memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Memory.h"; sourceTree = "<group>"; };
+		1DE1CAE621096A0900DA79EB /* UIViewController+Memory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Memory.m"; sourceTree = "<group>"; };
+		1DE1CAEC210974FB00DA79EB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1DE1CAED210974FB00DA79EB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		1DE1CAEE210974FB00DA79EB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1DE1CAEF210974FB00DA79EB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1DE1CAF0210974FB00DA79EB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DE1CAF1210974FB00DA79EB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		1DE1CAA02109670E00DA79EB = {
 			isa = PBXGroup;
 			children = (
+				1DE1CAE1210967EF00DA79EB /* MemoryCategary */,
 				1DE1CAAB2109670E00DA79EB /* Memory */,
 				1DE1CAC42109671000DA79EB /* MemoryTests */,
 				1DE1CACF2109671000DA79EB /* MemoryUITests */,
@@ -101,10 +114,9 @@
 		1DE1CAAB2109670E00DA79EB /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				1DE1CAEB210974FB00DA79EB /* ViewController */,
 				1DE1CAAC2109670E00DA79EB /* AppDelegate.h */,
 				1DE1CAAD2109670E00DA79EB /* AppDelegate.m */,
-				1DE1CAAF2109670E00DA79EB /* ViewController.h */,
-				1DE1CAB02109670E00DA79EB /* ViewController.m */,
 				1DE1CAB22109670E00DA79EB /* Main.storyboard */,
 				1DE1CAB52109671000DA79EB /* Assets.xcassets */,
 				1DE1CAB72109671000DA79EB /* LaunchScreen.storyboard */,
@@ -130,6 +142,30 @@
 				1DE1CAD22109671000DA79EB /* Info.plist */,
 			);
 			path = MemoryUITests;
+			sourceTree = "<group>";
+		};
+		1DE1CAE1210967EF00DA79EB /* MemoryCategary */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1CAE22109680700DA79EB /* UINavigationController+Memory.h */,
+				1DE1CAE32109680700DA79EB /* UINavigationController+Memory.m */,
+				1DE1CAE521096A0900DA79EB /* UIViewController+Memory.h */,
+				1DE1CAE621096A0900DA79EB /* UIViewController+Memory.m */,
+			);
+			path = MemoryCategary;
+			sourceTree = "<group>";
+		};
+		1DE1CAEB210974FB00DA79EB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1DE1CAF0210974FB00DA79EB /* ViewController.h */,
+				1DE1CAF1210974FB00DA79EB /* ViewController.m */,
+				1DE1CAEC210974FB00DA79EB /* TestViewController.h */,
+				1DE1CAED210974FB00DA79EB /* TestViewController.m */,
+				1DE1CAEE210974FB00DA79EB /* ThirdViewController.h */,
+				1DE1CAEF210974FB00DA79EB /* ThirdViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE1CAB12109670E00DA79EB /* ViewController.m in Sources */,
+				1DE1CAF4210974FB00DA79EB /* ViewController.m in Sources */,
 				1DE1CABC2109671000DA79EB /* main.m in Sources */,
+				1DE1CAE42109680700DA79EB /* UINavigationController+Memory.m in Sources */,
+				1DE1CAF3210974FB00DA79EB /* ThirdViewController.m in Sources */,
+				1DE1CAE721096A0900DA79EB /* UIViewController+Memory.m in Sources */,
 				1DE1CAAE2109670E00DA79EB /* AppDelegate.m in Sources */,
+				1DE1CAF2210974FB00DA79EB /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
